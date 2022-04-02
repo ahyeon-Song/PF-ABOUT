@@ -1,0 +1,152 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+/* header */
+nav{
+    max-width: 100%;
+    padding: 0;
+    top: 1.4vw;
+    left: 35%;
+    text-align: center;
+    position: fixed;
+    z-index: 3;
+  }
+
+  nav ul{
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li{
+    display: inline;
+    list-style-type: none;
+    margin: 0 3px;
+  }
+  
+  nav a{
+    text-align: center;
+    margin: auto;
+    font-size: 0.9vw;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 30px;
+  }
+  nav a:hover{
+    opacity: 70%;
+  }
+
+  /* -------------------- */
+
+
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Pretendard";
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vw;
+}
+
+.download {
+    margin-top: 3vw;
+    margin-left: 80%;
+}
+
+.download > a {
+    text-decoration: underline;
+    text-underline-position: under;
+    font-size: 1vw;
+    font-weight: 500;
+    color: #f0b8bd;
+}
+
+.download:hover {
+    opacity: 60%;
+    transition: 0.2s ease-in-out;
+}
+
+.left, .right {
+
+}
+
+.left {
+    width: 30%;
+    height: auto;
+    margin-top: 10vw;
+    margin-left: 10vw;
+    background-color: rgb(0, 0, 0);
+}
+
+.profile-img {
+}
+
+.left-text {
+    font-size: 0.9vw;
+    font-weight: 400;
+    color: white;
+    line-height: 1.5vw;
+    margin-top: 2vw;
+}
+
+.right {
+    width: 70%;
+    height: auto;
+    margin-right: 8vw;
+}
+
+.about {
+    width: 70%;
+    margin-top: 7vw;
+    color: white;
+}
+
+.name {
+    font-size: 3vw;
+    font-weight: 700;
+    color: white;
+}
+
+.korea {
+    font-size: 1vw;
+    font-weight: 400;
+    color: rgb(175, 175, 175);
+    margin-top: 0.5vw;
+}
+
+.b {
+    width: 41vw;
+    margin-top: 1vw;
+    font-size: 1vw;
+    font-weight: 300;
+    line-height: 1.6vw;
+    color: white;
+}
+
+.experience, .interview {
+    margin-top: 5vw;
+}
+
+h1 {
+    margin-top: 8vw;
+    font-size: 1.2vw;
+    font-weight: 700;
+    color: #f0b8bd;
+    letter-spacing: 0.1vw;
+}
+
+.h {
+    margin-top: 2vw;
+    font-size: 1vw;
+    font-weight: 700;
+    line-height: 1.6vw;
+    color: rgb(201, 201, 201);
+}
+
+.space {
+    height: 5vw;
+}
+
+.space1 {
+    height: 3vw;
+}
